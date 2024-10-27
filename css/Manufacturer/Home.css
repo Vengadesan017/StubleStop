@@ -1,0 +1,53 @@
+body{
+
+      
+    margin: 0;
+    padding: 0;
+
+    background-color: #E2F6E1; 
+    overflow: auto;
+  
+}
+.navbar {
+    background-color: rgba(23, 106, 38); 
+    /* background-color: #c6f9da;  */
+    color: rgb(255, 255, 255); 
+   
+}
+.navbar-nav {
+    margin-left: auto; /* Push items to the right */
+    display: flex; /* Use flexbox to space items evenly */
+    gap: 30px; /* Equal spacing between the nav items */
+    margin-right: 20px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    color: #2eb82e;
+}
+
+.btn-success {
+    background-color: #2eb82e;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #239b23;
+}
+
+
+
+

@@ -1,0 +1,109 @@
+
+body {
+    background-image: url(../../img/Farmer/post.png);
+    background-color:lightgreen;
+    margin-bottom: 60px; /* to accommodate the bottom nav */
+    background-size: cover;
+}
+
+.wallet-amount {
+
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.transaction-history {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.transaction {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transfer-btn-container {
+    /* position: fixed; */
+    bottom: 60px;
+
+    width: 100%;
+    padding: 0 10px;
+}
+
+.transfer-btn-container button {
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(24, 180, 32);
+    height: 40px;
+    width: 100%;
+}
+
+/* Bottom Navigation */
+/* Bottom Navigation */
+.navbar {
+box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+}
+
+.navbar-nav .nav-item .nav-link {
+color: #495057; /* Neutral color for links */
+font-size: 1.1rem;
+}
+
+.navbar-nav .nav-item .nav-link i {
+font-size: 18px; /* Size of icons */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+color:black; /* Change color on hover */
+}
+#one{
+margin-top: 100px;
+}
+
+
+
+/* Scrollbar styling */
+.transaction-history::-webkit-scrollbar {
+    width: 12px;
+}
+
+.transaction-history::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    
+}
+#one{
+    
+    border-radius: 15px ;
+    box-shadow: 0 2px 4px black;
+    max-width: 380px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: lightgreen;
+    
+    
+}
+#two{
+
+margin-top: 120px;
+}
+.fas{
+font-size: 1.5rem;
+}
+
+@media (min-width: 500px){
+    body{
+
+      
+        background-image: linear-gradient(#E2F6E1,#E2F6E1);
+        background-repeat: no-repeat;
+        background-position:contain;
+        background-size: cover;
+        width: 100%;
+       
+    
+      
+    }
+}  

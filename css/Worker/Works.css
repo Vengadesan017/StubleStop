@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #E2F6E1; 
+
+    overflow: auto;
+}
+/* body {
+    background-image: url(../../img/Farmer/post.png);
+    background-repeat: no-repeat;
+    background-position:contain;
+    background-size: cover;
+    margin-bottom: 50px;
+   
+    width: 100%;
+    background-color: #e9f7ec; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  } */
+.labour-work-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+.header {
+    background-color: rgba(23, 106, 38); 
+    /* background-color: #c6f9da;  */
+    color: rgb(255, 255, 255); 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 1.6rem; 
+    font-weight: bold;
+}
+
+
+body {
+    padding-top: 100px; 
+}
+
+/* Labour Work Card Styling */
+.labour-work-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #8fd381;
+    width: 100%;
+    max-width: 500px; 
+    border-radius: 20px;
+    padding: 30px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 10px 5px;
+}
+
+.form-group {
+    margin-top: -30px; 
+}
+
+.combined-control {
+    display: flex; 
+    align-items: center; 
+    border: 1px solid #ccc; 
+    border-radius: 30px; 
+    overflow:hidden; 
+    width: 350px;
+    background-color: #8fd381;
+}
+
+/* Container for select and input */
+.combined-field {
+    display: flex;
+    align-items: center; 
+    border: 1px solid #8fd381; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    width: 100%; 
+    background-color: #8fd381;
+}
+
+/* Styling for the select dropdown */
+.work-title-select-small {
+    background-color: #8fd381;
+    color: #0b0a0a;
+    padding: 8px; 
+    border: none; 
+    font-size: 0.9rem;
+    border-right: 4px solid #ccc; 
+    flex: 1; 
+    height: 40px;
+}
+
+/* Styling for the input field */
+.location-input {
+    padding: 8px; 
+    border: none; 
+    font-size: 0.9rem; 
+    flex: 2; 
+    height: 40px; 
+    background-color: #8fd381;
+}
+
+/* Optional: Add focus effects to show user interaction */
+.work-title-select-small:focus,
+.location-input:focus {
+    outline: none;
+    box-shadow: 0 0 3px 1px #66a15b; }
+.apply-filter-btn {
+        margin-top: 15px;
+        padding: 15px 15px;
+        background-color: #058387;
+        border: none;
+        color: white;
+        font-size: 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 140px; /* Adjust width for uniformity */
+    }
+    
+.apply-filter-btn:hover {
+        background-color: #558e4e; /* Button hover effect */
+    }
+
+
+.vertical-divider {
+    width: 2px; 
+    background-color: #013b1c; 
+    height: 50px; 
+}
+input::placeholder {
+    color: #0e0c0c; 
+    opacity: 1; 
+}
+
+/* Box Styling */
+.box {
+    width: 100%;
+    height: 200px; 
+    background-color: rgb(106, 105, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.details {
+    font-size: 1.6rem; 
+    line-height: 1.8;
+    padding: 10px;
+    color: black;
+}
+
+.human-power {
+    font-size: 1.4rem; 
+    line-height: 1.8;
+    padding: 10px;
+    color: black;
+}
+
+.detail, .power-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 20px 0;
+    border: none; 
+    border-top: 1.5px solid #004b23; 
+    width: 100%; 
+    opacity: 0.9; 
+}
+
+
+/* Enroll Button */
+.enroll-button {
+    width: 180px;
+    padding: 15px;
+    background-color: #004b23;
+    border: none;
+    color: #fff;
+    font-size: 1.4em; 
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+.enroll-button:hover {
+    background-color: #00361a;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .labour-work-card {
+        padding: 20px;
+    }
+
+    .work-title {
+        font-size: 1.6rem; 
+        width: 100%; 
+    }
+
+    .box {
+        height: 150px; 
+    }
+
+    .details, .human-power {
+        font-size: 1.2rem; 
+    }
+
+    .enroll-button {
+        font-size: 1.2rem; 
+        padding: 12px;
+    }
+} 
+.fas{
+    font-size: 1.5rem;
+}
+
+/* Bottom Navigation */
+.navbar {
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #495057; /* Neutral color for links */
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link i {
+    font-size: 18px; /* Size of icons */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color:black; /* Change color on hover */
+  }
+
+  @media (min-width: 500px){
+    body{
+
+      
+        background-image: linear-gradient(#E2F6E1,#E2F6E1);
+        background-repeat: no-repeat;
+        background-position:contain;
+        background-size: cover;
+        width: 100%;
+       
+    
+      
+    }
+}   

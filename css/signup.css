@@ -1,0 +1,27 @@
+body{
+
+      
+    background-image: url(../img/signup.jpg);
+    background-repeat: no-repeat;
+    background-position:contain;
+    background-size: cover;
+    width: 100%;
+   
+
+  
+}
+
+@media (min-width: 500px){
+    body{
+
+      
+        background-image: linear-gradient(#E2F6E1,#E2F6E1);
+        background-repeat: no-repeat;
+        background-position:contain;
+        background-size: cover;
+        width: 100%;
+       
+    
+      
+    }
+}

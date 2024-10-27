@@ -1,0 +1,107 @@
+body {
+
+    background-image: url(../../img/Farmer/post.png);
+   
+    background-repeat: no-repeat;
+    background-position:contain;
+    background-size: cover;
+   
+
+
+     
+ }
+ .container {
+     margin-top: 50px;
+     text-align: center;
+ }
+ .header {
+     padding: 40px 0;
+     color: white;
+ }
+ .header img {
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+     object-fit: cover;
+ }
+ .header h2 {
+     margin: 10px 0;
+     color: #333;
+ }
+ .profile-info {
+     margin-top: 30px;
+     text-align: left;
+ }
+ .profile-info p {
+     font-size: 1.1rem;
+     margin: 15px 0;
+     color: #333;
+ }
+ .profile-info .icon {
+     font-size: 1.5rem;
+     color: #28a745; /* Dark green */
+     margin-right: 15px;
+ }
+ .edit-profile-btn {
+     background-color: #28a745;
+     color: white;
+     padding: 10px 30px;
+     border-radius: 50px;
+     border: none;
+     width: 100%;
+     font-size: 1rem;
+     margin-top: 20px;
+     text-align: center;
+ }
+ .edit-profile-btn:hover {
+     background-color: #218838;
+ }
+ /* Hidden form for editing profile */
+ .edit-form {
+     display: none;
+     margin-top: 20px;
+ }
+ .edit-form input {
+     margin-bottom: 10px;
+ }
+/* Bottom Navigation */
+.navbar {
+box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+}
+
+.navbar-nav .nav-item .nav-link {
+color: #495057; /* Neutral color for links */
+font-size: 1.1rem;
+}
+
+.navbar-nav .nav-item .nav-link i {
+font-size: 18px; /* Size of icons */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+color:black; /* Change color on hover */
+}
+#one{
+margin-top: 100px;
+}
+
+.profile-edit-button{
+margin-bottom: 100px;
+}
+
+
+@media (min-width: 500px){
+    body{
+
+      
+        background-image: linear-gradient(#E2F6E1,#E2F6E1);
+        background-repeat: no-repeat;
+        background-position:contain;
+        background-size: cover;
+        width: 100%;
+       
+    
+      
+    }
+}  

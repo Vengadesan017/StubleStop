@@ -1,0 +1,262 @@
+/* General Styling */
+body {
+    background-color: #f4f8f7;
+    margin: 0;
+    padding-top: 150px; 
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(90deg, hsl(138, 65%, 45%), hsl(160, 80%, 50%)); 
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);;
+    display: flex;            
+    align-items: center;       
+    justify-content: space-between; 
+}
+
+.logo {
+    max-width: 80px;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.app-name {
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+    flex-grow: 1;              
+    text-align: center;        
+    letter-spacing: 1px;       
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Slogan Section */
+.slogan-section {
+    text-align: center;
+    background-color: white;
+    color: green;
+    padding: -30px 0;
+}
+
+.slogan-section h2 {
+    font-size: 1.5em;
+}
+
+.slogan-section p {
+    font-size: 1.2em;
+    color: black;
+}
+/* Process Section */
+/* Process Section Styling */
+.process-section {
+    margin-top: -50px;
+    padding: 50px 0;
+}
+
+.process-title {
+    font-size: 2.2em;
+    color: hsl(172, 67%, 23%);
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.process-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.process-card img {
+    border-radius: 2px 2px 0 0;
+}
+
+.process-card .card-body {
+    padding: 20px;
+}
+
+.process-card .card-title {
+    color: #066b5f;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.process-card .card-text {
+    font-size: 1.1em;
+    text-align: center;
+    color: #333;
+}
+
+/* Carousel Controls Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: grey;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+/* About Section */
+.about-section {
+    padding: -90px 0;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.about-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: hsl(172, 67%, 23%);
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.about-section .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-section .row {
+    display: flex;
+    align-items: center;
+}
+
+.about-section .col-md-6 {
+    padding: 20px;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.animated-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-image:hover {
+    transform: scale(1.05); /* Scale the image to 105% */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+
+/* Impact Section */
+.impact-section {
+    padding: 30px 0;
+}
+
+.impact{
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: hsl(172, 67%, 23%);
+    text-align: center;
+}
+
+.impact-grid {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    text-align: center; 
+}
+
+.impact-item {
+    margin: 20px; 
+    width: 200px; 
+}
+
+.impact-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.impact-percentage {
+    margin-top: 10px; /* Space above the percentage text */
+    font-size: 1.1rem; /* Font size for percentages */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #333; /* Dark color for readability */
+}
+
+
+/* Feedback Section */
+.feedback-section {
+    padding: 30px 0;
+    background-color: #f9f9f9; 
+    border-radius: 8px; /* Rounded corners for the section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.feedback-section h2 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 15px; /* Space below heading */
+    font-size: 2rem; /* Larger font size for the heading */
+    color: #066b5f; /* Dark color for readability */
+}
+
+/* Style for Visme feedback form */
+.visme_d {
+    width: 100%; /* Full width for small screens */
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the form */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+    min-height: 800px; /* Increased height */
+    height: auto; /* Let the height adjust based on content */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+
+
+/* Footer Section */
+.footer {
+    background: linear-gradient(90deg, hsl(138, 65%, 45%), hsl(160, 80%, 50%));
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 75px;
+}
+
+/* Bottom Navigation */
+.navbar {
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #495057; /* Neutral color for links */
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link i {
+    font-size: 18px; /* Size of icons */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color:black; /* Change color on hover */
+  }
+  #one{
+    margin-top: 100px;
+  }
+  

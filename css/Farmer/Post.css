@@ -1,0 +1,116 @@
+body {
+    background-image: url(../../img/Farmer/post.png);
+    background-repeat: no-repeat;
+    background-position:contain;
+    background-size: cover;
+    margin-bottom: 50px;
+   
+    width: 100%;
+    background-color: #e9f7ec; /* Light green background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .form-container, .status-container {
+    margin-top: 50px;
+    flex: 1;
+  }
+  .form-control {
+    background-color: #c0e5be;
+    border: none;
+  }
+  .form-control:focus {
+    box-shadow: none;
+  }
+  .btn-post {
+    background-color: #337a35;
+    color: #fff;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .btn-post:hover {
+    background-color: #285c2a;
+  }
+  .bottom-nav {
+    background-color: #c0e5be; /* Light green color for bottom navbar */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .bottom-nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .bottom-nav a.active {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .status-container {
+    display: none; /* Initially hidden */
+  }
+  .image-placeholder {
+    border: 2px solid #ccc;
+    text-align: center;
+    color: #888;
+    font-size: 1.2em;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .progress-bar {
+    text-align: center;
+    font-size: 0.85em;
+  }
+  #uploadedImage {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  /* Bottom Navigation */
+  .navbar {
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #495057; /* Neutral color for links */
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link i {
+    font-size: 18px; /* Size of icons */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color:black; /* Change color on hover */
+  }
+  #one{
+    margin-top: 100px;
+  }
+
+.scroll{
+  overflow: auto;
+}
+  @media (min-width: 500px){
+    body{
+
+      
+        background-image: linear-gradient(#E2F6E1,#E2F6E1);
+        background-repeat: no-repeat;
+        background-position:contain;
+        background-size: cover;
+        width: 100%;
+       
+    
+      
+    }
+} 

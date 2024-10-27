@@ -1,0 +1,86 @@
+body{
+    background-color: #E2F6E1; 
+      margin: 0;
+      /* padding-top: 150px;      */
+  }
+  .header {
+    background-color: rgba(23, 106, 38); 
+    /* background-color: #c6f9da;  */
+    color: rgb(255, 255, 255); 
+      width: 100%; 
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      z-index: 1000; 
+      padding: 20px; 
+      text-align: left; 
+    }
+    /* Logo Styling */
+    .logo {
+      font-size: 1.6rem; 
+      font-weight: bold;
+    }
+/* Navbar customization */
+.navbar-nav .nav-item .nav-link {
+    color: black; /* White text for links */
+    font-weight: 500; /* Medium boldness */
+    padding: 10px 20px; /* Increase padding around links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: black; /* Change to green on hover */
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: black; /* Green color for the active page */
+}
+
+.navbar {
+    background-color: rgb(199, 247, 199);
+    padding: 10px 20px; /* Padding around the entire navbar */
+}
+
+.navbar-nav {
+    gap: 15px; /* Evenly space between nav items */
+}
+
+.navbar-nav .ms-auto {
+    margin-left: auto; /* Automatically push "Profile" link to the right */
+}
+
+#one{
+    padding: 32px;
+}
+#two{
+    padding: 32px;
+}
+ .card-body{
+    border:1px solid #059330;
+    background-color: #0da039;
+    color: white;
+ }
+.post-card {
+    background-color: rgb(169, 248, 160);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.post-card h5 {
+    color: #004b23;
+}
+
+.filter-box {
+    background-color: #048b2c; /* Light background color */
+    padding: 10px;             /* Padding around the checkbox and label */
+    border-radius: 5px;        /* Rounded corners */
+    border: 1px solid #ddd;    /* Light border */
+    color:white;
+}
+.apply_filter{
+    background-color: rgb(192, 250, 192);
+    text-align: center;
+    color: black;
+}

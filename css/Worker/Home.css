@@ -1,0 +1,80 @@
+body{
+  background-color: #E2F6E1; 
+    margin: 0;
+    padding-top: 150px;     
+}
+.header {
+  background-color: rgba(23, 106, 38); 
+  /* background-color: #c6f9da;  */
+  color: rgb(255, 255, 255); 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    padding: 20px; 
+    text-align: left; 
+  }
+  /* Logo Styling */
+  .logo {
+    font-size: 1.6rem; 
+    font-weight: bold;
+  }
+
+header {
+    background: url('./../img/Worker/Labour_header_home.png') no-repeat center center;
+    background-size: cover;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title{
+    color: blue;
+}
+h2{
+    color:rgb(3, 3, 67);
+}
+.one{
+    color: green;
+}
+.icon-box {
+    padding: 20px;
+    text-align: center;
+}
+
+.icon-box i {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #004b23;
+    color: #fff;
+}
+.fas{
+    font-size: 1.5rem;
+}
+/* Bottom Navigation */
+.navbar {
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #495057; /* Neutral color for links */
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link i {
+    font-size: 18px; /* Size of icons */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color:black; /* Change color on hover */
+  }
+  .Welcome{
+    margin-top: 75px;
+  }

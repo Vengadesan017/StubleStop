@@ -1,0 +1,76 @@
+
+body {
+    background-image: url('./../img/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: zoomBackground 10s infinite alternate ease-in-out;
+
+}
+
+/* Keyframes for background zoom animation */
+@keyframes zoomBackground {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+/* Fade-in animation for login card */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Button hover animation */
+.animated-btn:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+}
+
+/* Button focus and click animation */
+.animated-btn:active {
+    transform: scale(1);
+}
+
+/* Position the image at the bottom of the page */
+.bottom-image {
+    position: fixed;
+    bottom: 0;
+    max-height: 210px;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Bounce animation for the image */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate-bounce {
+    animation: bounce 3s infinite;
+}
+
+@media (min-width: 500px){
+    .bottom-image{
+        display: none;
+    }
+}

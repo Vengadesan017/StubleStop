@@ -1,0 +1,220 @@
+
+.modal-content {
+    background-color: #42469d;
+    border-color: #42469d;
+    border-radius: 1rem;
+  }
+  
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 750px;
+      margin: 1.75rem auto;
+    }
+  }
+  
+  .show {
+    padding: 0;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem 0;
+    color: #fff;
+  }
+  
+  :-moz-any-link:focus {
+    outline: none;
+  }
+  
+  .modal-title {
+    line-height: 3rem;
+  }
+  
+  .modal-body {
+    padding: 1rem;
+  }
+  
+  #progressbar {
+    margin-bottom: 3vh;
+    overflow: hidden;
+    color: rgb(23, 241, 88);
+    padding-left: 0px;
+    margin-top: 3vh;
+  }
+  
+  #progressbar li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    width: 20%;
+      
+    float: left;
+    position: relative;
+    font-weight: 400;
+    color: black;
+  }
+  
+  #progressbar #step1:before {
+    content: "";
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-left: 0px !important;
+  }
+  
+  #progressbar #step2:before {
+    content: "";
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-left: 32%;
+  }
+  
+  #progressbar #step3:before {
+    content: "";
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 32%;
+  }
+  
+  #progressbar #step4:before {
+    content: "";
+    color: rgba(151, 149, 149, 0.651);
+    width: 20px;
+    height: 20px;
+    margin-right: 0px !important;
+  }
+  
+  #progressbar li:before {
+    line-height: 29px;
+    display: block;
+    font-size: 12px;
+    background: red;
+    border-radius: 50%;
+    margin: auto;
+    z-index: -1;
+    margin-bottom: 1vh;
+  }
+  
+  #progressbar li:after {
+    content: '';
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 2vh;
+    top: 8px;
+    z-index: 1;
+  }
+  
+  .progress-track {
+    padding: 0 8%;
+  }
+  
+  #progressbar li:nth-child(2):after {
+    margin-right: auto;
+  }
+  
+  #progressbar li:nth-child(1):after {
+    margin: auto;
+  }
+  
+  #progressbar li:nth-child(3):after {
+    float: left;
+    width: 68%;
+  }
+  
+  #progressbar li:nth-child(4):after {
+    margin-left: auto;
+    width: 132%;
+  }
+  
+  #progressbar li.active:before,
+  #progressbar li.active:after {
+    background: Green;
+  }
+  
+  #three {
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 767px) {
+    #three {
+      font-size: 1rem;
+    }
+  }
+  
+  .details {
+    padding: 2rem;
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+  }
+  
+  @media (max-width: 767px) {
+    .details {
+      padding: 2rem 0;
+      font-size: 1rem;
+      line-height: 2.5rem;
+    }
+  }
+  
+  .card {
+    /* background-color: #AFF4AB; */
+    background-color: #fff;
+    border-radius: 15px;
+    border: #176A26 2px;
+  
+  }
+  .parent-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Make sure the parent has a height to center vertically */
+  }
+  
+  .card-outer {
+    background-color: #AFF4AB;
+    /* background-color: #176A26; */
+    border-radius: 15px;
+    padding: 50px 70px;
+    width: 120%; /* Set width to 80% of the parent container */
+    max-width: 1400px; /* Optional: set a maximum width to prevent the card from getting too wide */
+    margin: 0 auto; /* Center the card horizontally */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better appearance */
+  }
+  
+  .navbar {
+    background-color: #66cc66;
+   
+  }
+  .navbar-nav {
+    margin-left: auto; /* Push items to the right */
+    display: flex; /* Use flexbox to space items evenly */
+    gap: 30px; /* Equal spacing between the nav items */
+  }
+  
+  .nav-item {
+    list-style: none;
+    font-size: 1.1em;
+  }
+  
+  
+  .card-body h5,
+  .card-body p {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  #one {
+    justify-content: center;
+    background-color: purple;
+    border-radius: 20px;
+    width: 100%; /* Use 100% instead of 100==px */
+  }
+  

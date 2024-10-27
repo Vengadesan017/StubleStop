@@ -1,0 +1,91 @@
+/* Outer Card Styling */
+.outer-card {
+    background-color: rgba(175, 239, 179, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    opacity:0.9;
+
+}
+
+/* Navbar Button Customizations */
+.navbar {
+    background-color: rgb(158, 247, 158); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.navbar-nav .btn {
+    border-radius: 17px; 
+    padding: 10px 20px;  
+    font-size: 1.1rem;   
+    background-color: #2ec349;
+    width: 80px;
+}
+
+.navbar-nav .btn:hover {
+    opacity: 0.9; 
+}
+
+/* Inner Card Styling for Summary and Goodon */
+.summary-card, .goodon-card {
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(236, 242, 237, 0.9);
+}
+
+
+
+/* Section Title Styling */
+.section-title {
+    background-color: #136b38; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 240px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute; 
+    top: -10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-bottom: 2%;
+}
+
+
+/* Text styling inside the cards */
+.summary-card p, .goodon-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .outer-card {
+        padding: 20px;
+    }
+
+    .summary-card, .goodon-card {
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+
+    .summary-card p, .goodon-card p {
+        font-size: 1rem;
+    }
+}
+/* Button Container Styling */
+.button-container {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: flex-end; 
+
+}

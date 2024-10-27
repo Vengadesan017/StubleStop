@@ -1,0 +1,349 @@
+/* General Body Styling */
+body {
+    background-image: url(../../img/Farmer/post.png);
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size: cover;
+   
+    width: 100%;
+  
+    }
+    /* Button Styling */
+    .btn-post {
+      background-color: #337a35;
+      color: #fff;
+      border: none;
+      width: 100%;
+      margin-top: 20px;
+      border-radius: 20px;
+    }
+    
+    .btn-post:hover {
+      background-color: #285c2a;
+    }
+    
+    
+    /* Image Preview in Status Page */
+    .image-placeholder {
+      margin-left: 16px;
+      border: 2px solid #ccc;
+      text-align: center;
+      color: #888;
+      font-size: 1.2em;
+      height: 200px;
+      width: 90%;
+      display: center;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #uploadedImage {
+      width: 100%;
+      height: 199px;
+      object-fit: cover;
+  }
+    
+    /* Navbar Styling */
+    .navbar {
+      box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+    }
+    
+    .navbar-nav .nav-item .nav-link {
+      color: #495057; /* Neutral color for links */
+      font-size: 14px;
+    }
+    
+    .navbar-nav .nav-item .nav-link i {
+      font-size: 18px; /* Size of icons */
+    }
+    
+    .navbar-nav .nav-item .nav-link:hover {
+      color: #09eb54; /* Change color on hover */
+    }
+    
+    /* Ensuring Consistency on All Pages */
+    .container {
+      padding-bottom: 100px; /* Ensuring space above the bottom navbar */
+    }
+  
+    /* style sign up.css */
+  input.form-control {
+    height: 50px; /* Increase height */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  /* Bottom Navigation */
+  .navbar {
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for navbar */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #495057; /* Neutral color for links */
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link i {
+    font-size: 18px; /* Size of icons */
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color:black; /* Change color on hover */
+  }
+  #one{
+    margin-top: 100px;
+  }
+  
+  
+  
+  .modal-content {
+    background-color: #42469d;
+    border-color: #42469d;
+    border-radius: 1rem;
+  }
+  
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 750px;
+      margin: 1.75rem auto;
+    }
+  }
+  
+  .show {
+    padding: 0;
+  }
+  
+  .modal-header {
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem 0;
+    color: #fff;
+  }
+  
+  :-moz-any-link:focus {
+    outline: none;
+  }
+  
+  .modal-title {
+    line-height: 3rem;
+  }
+  
+  .modal-body {
+    padding: 1rem;
+  }
+  
+  #progressbar {
+    margin-bottom: 3vh;
+    overflow: hidden;
+    color: rgb(23, 241, 88);
+    padding-left: 0px;
+    margin-top: 3vh;
+  }
+  
+  #progressbar li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    width: 20%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+    color: black;
+  }
+  
+  #progressbar #step1:before {
+    content: "";
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-left: 0px !important;
+  }
+  
+  #progressbar #step2:before {
+    content: "";
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-left: 32%;
+  }
+  
+  #progressbar #step3:before {
+    content: "";
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-right: 32%;
+  }
+  
+  #progressbar #step4:before {
+    content: "";
+    color: rgba(151, 149, 149, 0.651);
+    width: 20px;
+    height: 20px;
+    margin-right: 0px !important;
+  }
+  
+  #progressbar li:before {
+    line-height: 29px;
+    display: block;
+    font-size: 12px;
+    background: red;
+    border-radius: 50%;
+    margin: auto;
+    z-index: -1;
+    margin-bottom: 1vh;
+  }
+  
+  #progressbar li:after {
+    content: '';
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 2vh;
+    top: 8px;
+    z-index: 1;
+  }
+  
+  .progress-track {
+    padding: 0 8%;
+  }
+  
+  #progressbar li:nth-child(2):after {
+    margin-right: auto;
+  }
+  
+  #progressbar li:nth-child(1):after {
+    margin: auto;
+  }
+  
+  #progressbar li:nth-child(3):after {
+    float: left;
+    width: 68%;
+  }
+  
+  #progressbar li:nth-child(4):after {
+    margin-left: auto;
+    width: 132%;
+  }
+  
+  #progressbar li.active:before,
+  #progressbar li.active:after {
+    background: Green;
+  }
+  
+  #three {
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 767px) {
+    #three {
+      font-size: 1rem;
+    }
+  }
+  
+  .details {
+    padding: 2rem;
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+  }
+  
+  @media (max-width: 767px) {
+    .details {
+      padding: 2rem 0;
+      font-size: 1rem;
+      line-height: 2.5rem;
+    }
+  }
+  
+  
+  
+  
+  
+  #one{
+    margin-top: 40px;
+    border-radius: 15px ;
+    box-shadow: 0 2px 4px black;
+    max-width: 400px;
+    height: 700px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: lightgreen;
+    
+    
+    
+  }
+  .status{
+    margin-left: 20px;
+  
+  }
+  
+
+  #progressbar li {
+    list-style-type: none;
+    font-size: 0.8rem;
+    width: 20%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+    color: black;
+}
+.custom-btn {
+    background-color: gray; /* Custom green */
+    border-radius: 20px; /* Make button rounded */
+    width: 80%;
+    margin:20px 30px;
+    font-size: 1.2rem; /* Increase font size */
+    padding: 10px 10px; /* Adjust padding */
+    transition: background-color 0.3s ease; /* Smooth transition */
+
+}
+
+.Verify .active{
+    background-color: #28a745; 
+
+
+}
+
+.custom-btn:hover {
+background-color: #218838; /* Darker green on hover */
+}
+#one{
+margin-top: 40px;
+border-radius: 15px ;
+box-shadow: 0 2px 4px black;
+min-width:400px;
+max-width: 450px;
+height: 650px;
+padding-bottom: 20px;
+padding-top: 20px;
+background-color: lightgreen;
+
+
+
+}
+
+#uploadedImage {
+width: 100%;
+height: 199px;
+object-fit: cover;
+}
+
+  
+@media (min-width: 500px){
+    body{
+
+      
+        background-image: linear-gradient(#E2F6E1,#E2F6E1);
+        background-repeat: no-repeat;
+        background-position:contain;
+        background-size: cover;
+        width: 100%;
+       
+    
+      
+    }
+}  
